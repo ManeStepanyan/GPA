@@ -1,0 +1,29 @@
+﻿<Window x:Class="GPA.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GPA"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="444.444" Width="727.778">
+    <Grid>
+        <Grid.Width>700</Grid.Width>
+        <Grid.Background>
+            <ImageBrush ImageSource="thinking-brain-gears.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <TextBox Name="t1" HorizontalAlignment="Left" Height="45" Margin="68,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" />
+        <TextBox Name="t2" HorizontalAlignment="Left" Height="45" Margin="68,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" RenderTransformOrigin="0.542,1.708" />
+        <TextBox Name="t3" HorizontalAlignment="Left" Height="45" Margin="68,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" />
+        <TextBox Name="t4" HorizontalAlignment="Left" Height="45" Margin="68,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" />
+        <TextBox Name="t5" HorizontalAlignment="Left" Height="45" Margin="68,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" />
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Credits" VerticalAlignment="Top" Height="50" RenderTransformOrigin="1.77,1.176" FontSize="25" Margin="85,10,0,0" FontStyle="Oblique" FontWeight="Bold" Foreground="SaddleBrown"/>
+        <TextBox Name="tt1" HorizontalAlignment="Center" Height="45" Margin="68,48,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" />
+        <TextBox Name="tt2" HorizontalAlignment="Center" Height="45" Margin="68,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" RenderTransformOrigin="0.542,1.708" />
+        <TextBox Name="tt3" HorizontalAlignment="Center" Height="45" Margin="68,324,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" />
+        <TextBox Name="tt4" HorizontalAlignment="Center" Height="45" Margin="68,253,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" />
+        <TextBox Name="tt5" HorizontalAlignment="Center" Height="45" Margin="68,185,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" />
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Grades" VerticalAlignment="Top" Height="50" RenderTransformOrigin="1.77,1.176" FontSize="25" Margin="85,10,0,0" FontStyle="Oblique" FontWeight="Bold" Foreground="SaddleBrown"/>
+        <Button Name="Button1" Click="Button1_Click"  Content="Calculate GPA" HorizontalAlignment="Left" Margin="482,161,0,0" VerticalAlignment="Top" Width="200" FontSize="25" RenderTransformOrigin="0.205,0.43" FontWeight="Bold"/>
+        <TextBox Name="res" HorizontalAlignment="Left" Height="43" Margin="529,220,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontSize="30" FontWeight="Bold"/>
+    </Grid>
+</Window>
